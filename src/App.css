@@ -74,3 +74,44 @@ body{
   width: 80%;
   /* border: 1px solid; */
 }
+
+
+
+@media screen and (max-width: 750px) {
+  .TodoWrapper{
+    width: 100%;
+  }
+  .TodoWrapper h1{
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #trash{
+    display: inline;
+    margin-left: 15px;
+    color: #fff;
+  }
+  
+  #pencil{
+    display: inline;
+    margin-left: 15px;
+    color: #fff;
+  }
+  .Todo{
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+
+
+@media screen and (max-width: 380px) {
+  .TodoWrapper{
+    width: 98%;
+  }
+  .TodoWrapper h1{
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
